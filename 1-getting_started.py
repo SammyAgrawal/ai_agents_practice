@@ -21,7 +21,7 @@ Input Fields:
 - stop - define stop token
 - tools 
 
-Output / Response JSON: 
+Output / Response JSON:  https://github.com/openai/openai-python/blob/main/src/openai/types/chat/chat_completion.py
 - 
 """
 
@@ -44,7 +44,8 @@ Input:
 - Instead of messages, we use input field 
 - Instructions field is basically the system role, setting the context for the LLM system.  
 
-Output: text or json
+Output: ChatCompletion object with following guaranteed fields: 
+text or json
 - LLM Text as a 
 """
 
